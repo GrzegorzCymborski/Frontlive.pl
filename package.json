@@ -12,9 +12,7 @@
     "lint": "eslint . --ext ts --ext tsx --ext js",
     "tsc": "tsc --pretty --noEmit",
     "test-all": "npm run lint && npm run type-check && npm run test",
-    "analyze": "cross-env ANALYZE=1 next build && cat .next/stats.txt",
-    "cy:open": "cypress open",
-    "cy:run": "cypress run"
+    "analyze": "cross-env ANALYZE=1 next build && cat .next/stats.txt"
   },
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
