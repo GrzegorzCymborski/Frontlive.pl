@@ -18,6 +18,18 @@ export const recommendations = [
     },
   },
   {
+    content: `Mam przyjemność pracować z Olafem od roku.
+Olaf Sulich zaczął swoją współpracę w Hypnocoders w 2020 jako front-end developer.
+Znam go jako profesjonalną i utalentowaną osobę. Posiada wysoką etykę pracy oraz pokazał wybitny rozwój.
+W okresie tym pracował nad różnymi projektami, w których dostarczył wysokiej jakości oprogramowanie.
+Mogę z pewnością rekomendować Olafa jako wybitną i profesjonalną osobę.`,
+    author: {
+      image: '/images/rekomendacje/dominik-palacz.jpg',
+      name: 'Dominik Palacz',
+      company: 'CTO w Hypnocoders',
+    },
+  },
+  {
     content:
       "Dzięki Olafowi z  Frontlive udało mi się dostać moją pierwszą pracę w React! Jego kurs z TypeScript + React to według mnie najlepsze źródło jakie mogłem znaleźć na początku mojej drogi z TypeScriptem. Moim następnym celem jest nauka Gatsby'ego tak więc mam nadzieję, że Frontlive również tutaj mnie nie zawiedzie!",
     author: {
@@ -26,15 +38,7 @@ export const recommendations = [
       company: 'Frontend Developer w Parkalot',
     },
   },
-  {
-    content:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit',
-    author: {
-      image: '/images/user.png',
-      name: 'John Doe',
-      company: 'Vercel',
-    },
-  },
+
   {
     content:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit',

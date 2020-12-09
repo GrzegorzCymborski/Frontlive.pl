@@ -22,6 +22,7 @@ export const NewsletterForm = memo(({ id = 'email' }: NewsletterFormProps) => {
     e: MouseEvent<HTMLButtonElement, MouseEvent> | FormEvent<HTMLFormElement>,
   ) => {
     e.preventDefault();
+    setInputValue('');
     setLoadingState(true);
 
     const res = await subscribeToNewsletter(inputValue);
@@ -35,7 +36,7 @@ export const NewsletterForm = memo(({ id = 'email' }: NewsletterFormProps) => {
     }
 
     setLoadingState(false);
-    setTitle('Sukces!');
+    setTitle('Subskrybujesz!');
     setStatus('success');
   };
 
