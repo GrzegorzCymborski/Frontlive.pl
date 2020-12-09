@@ -12,7 +12,7 @@ Już jest, nowy <Sparkles>Frontlive!</Sparkles> Od teraz to zarówno mój blog, 
 
 ## Kiedyś to było
 
-[Orginalna, stara odsłona bloga](https://web.archive.org/web/20201101102314/https://www.frontlive.pl/) była tworzona w okresie, gdy dopiero stawiałem swoje pierwsze kroki w Reakcie. Postanowiłem, że założę własnego bloga, bo czemu nie? Krążyły wtedy mity, że tylko _doświadczeni programiści_ mogą nauczać innych. Jak widać, to bzdura ;)
+[Orginalna, stara odsłona bloga](https://web.archive.org/web/20201101102314/https://www.frontlive.pl/) była tworzona w okresie, gdy miałem za sobą już pierwsze kroki w Reakcie, stowrzyłem w nim kilka projektów i pomyślałem _Co dalej?_. Postanowiłem, że założę własnego bloga, bo czemu nie? Krążyły wtedy mity, że tylko _doświadczeni programiści_ mogą nauczać innych. Jak widać, to bzdura ;)
 
 Na samym początku, tak jak robię przy każdym moim projekcie, zacząłem tworzyć design strony. Następnym krokiem było wybranie odpowiedniej technologii, padło na Gatsbiego, którego już w tamtym momencie trochę liznąłem. Gatsby posiada wiele szablonów, postawnowiłem z takiego skorzystać i zacząłem szukać!
 
@@ -38,14 +38,14 @@ Na sam koniec - utrzymanie kodu. Poprzedni szablon był tworzony zanim pojawiły
 
 ## Jak jest teraz?
 
-Nowa strona to zdecydowanie powiew świeżości, przede wszystkim jest więcej **kolorów**, a całość jest znacznie większa. Nie zabrakło tutaj _fancy_ nagłówków i gradientów.
+Nowa strona to zdecydowanie powiew świeżości, przede wszystkim jest więcej **kolorów**, a całość jest znacznie większa. Nie zabrakło tutaj _fancy_ nagłówków i gradientów. Pomimo tych wszystkich zmian, nie zabrakło miejsca dla nawiązań do starej wersji.
 
 <Image
   src="/images/nowy-frontlive/nowy-frontlive-strona-glowna.png"
   alt="Strona główna obecnego Frontlive.pl"
 />
 
-Newsletter jest na sameje górze, czyli tam gdzie powinien być od początku. Gorąco <Sparkles>zachęcam do zapisania się!</Sparkles> W Newsletterze poruszam dodtkowe tematy, wysyłam Wam ciekawe linki i organizuję konkursy z nagrodami, niedługo następny. Nie ma mowy o jakimkolwiek spamie!
+Newsletter jest na sameje górze, czyli tam gdzie powinien być od początku. Gorąco <Sparkles>zachęcam do zapisania się!</Sparkles> W Newsletterze poruszam dodatkowe tematy, wysyłam Wam ciekawe linki i organizuję konkursy z nagrodami, niedługo następny. Nie ma mowy o jakimkolwiek spamie!
 
 Reszty strony Ci nie zdradzam, musisz ją odkryć samemu 🙈
 
@@ -59,7 +59,7 @@ Obecna strona zrobiona jest w całości w **Next.js** i **TypeScripcie**. Czemu 
 
 A co z Next.js? Next to świetny, Reaktowy framework, który rozwija się w na prawdę szybkim tempie. Od dłuższego czasu obserwuję tą technologię i bardzo przyjemnie mi się w niej pracuję. W poprzedniej wersji strony przytłoczyła mnie trochę liczba pluginów z których korzystałem. Pluginy to jednocześnie jedna z największych zalet, ale również wad Gatsbiego.
 
-W Nexcie większość rzeczy implementowałem na własną rękę. To też nie jest tak, że w Next.js nie mamy żadnych pluginów, czy starterów, to wszystko jest na swoim miejscu, ale nie są one podstawą tego frameworka. Next ma również, w mojej opinii, trochę przejrzystsze API, całość jest bardziej intuicyjna, ale próg wejścia może(chociaż tutaj sprawa nie jest taka prosta) wyższy. W żaden sposób nie dyskredytuję tutaj Gatsbiego, po prostu, ja używam tych frameworków do trochę innych celów. Tym razem postanowiłem postawić na Nexta i nie żałuję.
+Next daję mi większe możliwości jeśli chodzi o rozbudowę strony, jednak większość rzeczy implementujemy tutaj na własną rękę. To też nie jest tak, że w Next.js nie mamy żadnych pluginów, czy starterów, to wszystko jest na swoim miejscu, ale nie są one podstawą tego frameworka. Next ma również, w mojej opinii, trochę przejrzystsze API, całość jest bardziej intuicyjna, ale próg wejścia może(chociaż tutaj sprawa nie jest taka prosta) wyższy. W żaden sposób nie dyskredytuję tutaj Gatsbiego, nadal go uwielbiam, po prostu, ja używam tych frameworków do trochę innych celów. Tym razem postanowiłem postawić na Nexta i nie żałuję.
 
 Może pora na jakieś porównanie, **co Ty na to?**
 
@@ -75,9 +75,7 @@ Tutaj pojawia się znowu wiele opcji. Miałem do wyboru Scss, CSS Modules, rozw
 
 Odrzuciłem gotowe rozwiązania, jest tu dużo _customowych_ rzeczy, wprowadzenie gotowca mogłoby utrudnić sprawę. Nie chciałem również robić globalnych styli jak poprzednio, skalowalność takiego rozwiązania jest bardzo słaba. Zostały więc rozwiązania typu CSS-in-JS i CSS Modules.
 
-Pamiętam jak na początku swojej przygody z Reaktem mega zajawiłem się Styled Components, [Hello Roman](https://www.youtube.com/channel/UCq8XmOMtrUCb8FcFHQEd8_g) przyczynił się do tego swoimi kursami, które przerabiałem(są na prawdę dobre, polecam!). Napisałem parę projektów z wykorzystaniem tej technologii i mam pewne przemyślenia.
-
-Największą zaletą **SC** jest to, że możemy na podstawie propsów nadawać style dla komponentu. Przydaję się to gdy mamy jego różne wersje. Poza tą zaletą, ciężko mi znaleźć jakieś inne. Styled Components to dodatkowy _narzut_, musimy tworzyć gdzieś te komponenty, rodzi się pytanie: _Ale gdzie?_ Najlepiej poza samym plikiem z komponentem. Są jeszcze problemy z nazewnictwem, nazywać jak komponent, z dopiskiem `Styled`, czy jeszcze jakoś inaczej? I jedna z potencjalnych zalet, Theme Provider, też nie jest najlepszą opcją jeśli chodzi o performance, wspominał o tym [Kent C. Dodds w swoim artykule o CSS Variables](https://epicreact.dev/css-variables).
+Pamiętam jak na początku swojej przygody z Reaktem mega zajawiłem się Styled Components. Napisałem parę projektów z wykorzystaniem tej technologii i mam pewne przemyślenia.Największą zaletą **SC** jest to, że możemy na podstawie propsów nadawać style dla komponentu. Przydaję się to gdy mamy jego różne wersje. Poza tą zaletą, ciężko mi znaleźć jakieś inne. Styled Components to dodatkowy _narzut_, musimy tworzyć gdzieś te komponenty, rodzi się pytanie: _Ale gdzie?_ Najlepiej poza samym plikiem z komponentem. Są jeszcze problemy z nazewnictwem, nazywać jak komponent, z dopiskiem `Styled`, czy jeszcze jakoś inaczej? I jedna z potencjalnych zalet, Theme Provider, też nie jest najlepszą opcją jeśli chodzi o performance, wspominał o tym [Kent C. Dodds w swoim artykule o CSS Variables](https://epicreact.dev/css-variables).
 
 Postawiłem na złoty środek - <Sparkles>CSS Modules</Sparkles>. Tutaj piszemy style dla danego komponentu, możemy korzystać z Scss, tak też zrobiłem. Wszystkie kolory trzymam w zmiennych CSSowych. Do manipulacji klasami przydaje się prosta libka [classnames](https://github.com/JedWatson/classnames), której jeszcze lżejszą alternatywą jest [clsx](https://github.com/lukeed/clsx).
 
