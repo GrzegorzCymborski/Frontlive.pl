@@ -23,7 +23,13 @@ export const Hero = () => {
           srcSet={require(`../../../public/images/olaf.png?webp`)}
           type="image/webp"
         />
-        <img src="/images/olaf.png" alt="" width="348" height="443" className={styles.heroImage} />
+        <img
+          src="/images/olaf.png"
+          alt="Cukierkowy avatar autora, który trzyma laptopa w ręku"
+          width="348"
+          height="443"
+          className={styles.heroImage}
+        />
       </picture>
     </div>
   );

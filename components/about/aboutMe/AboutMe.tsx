@@ -35,7 +35,11 @@ export const AboutMe = () => (
     </div>
     <picture className={styles.image}>
       <source srcSet={require(`../../../public/images/me.png?webp`)} type="image/webp" />
-      <img src="/images/me.png" alt="" className={styles.image} />
+      <img
+        src="/images/me.png"
+        alt="Autor przedstawiony w codziennym, nieformalnym wydaniu. Stoi on na przeciwko oszklonego budynku Jordanek, w jego rodzinnym mieście - Toruniu."
+        className={styles.image}
+      />
     </picture>
   </section>
 );
