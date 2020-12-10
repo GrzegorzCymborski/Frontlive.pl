@@ -10,8 +10,8 @@ export const Hero = () => {
         <h1 className={styles.heading}>Cześć, tu Olaf</h1>
         <div className={styles.textWrapper}>
           <p className={styles.text}>
-            Witaj na blogu! Piszę głównie o tematach związanych z frontendem, mam nadzieję, że
-            znajdziesz tutaj coś dla siebie.
+            Witaj na Frontlive - frontendowym blogu i mojej stronie portfolio. Mam nadzieję, że
+            znajdziesz tutaj coś dla siebie. Enjoy!
           </p>
           <NewsletterForm id="email" />
           <SocialLinks />
