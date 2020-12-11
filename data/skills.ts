@@ -7,7 +7,6 @@ export const frontendSkills = [
   'Gatsby',
   'Next.js',
   'GraphQL',
-  'Firebase',
 ];
 
 export const backendSkills = ['Node.js', 'Express', 'PostgreSQL', 'Prisma 2.0'];

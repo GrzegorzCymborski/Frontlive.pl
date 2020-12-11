@@ -13,7 +13,7 @@ export const AboutMe = () => (
       <p className={styles.text}>
         Nazywam się Olaf Sulich. Jestem <strong>frontend developerem</strong>, miłośnikiem Reakta i
         TypeScripta. Poza prowadzeniem tego bloga, intensywnie udzielam się w frontendowym
-        community. Jestem również członkiem grupy
+        community. Należę również do grupy
         <a
           href="https://przeprogramowani.pl/"
           target="_blank"
