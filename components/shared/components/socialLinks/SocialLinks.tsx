@@ -24,7 +24,7 @@ export const SocialLinks = () => {
         label="Konto na Twitterze"
       />
       <SocialLink
-        href="https://facebook.com/frontlive"
+        href="https://www.facebook.com/Frontlivepl-104804118165557"
         icon={FacebookIcon}
         label="Strona na Facebooku"
       />

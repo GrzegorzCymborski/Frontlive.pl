@@ -32,7 +32,7 @@ export const Mdx = memo<MdxProps>(({ frontmatter, content }) => {
         [styles.projectWrapper]: !isPost,
       })}
     >
-      <div className={styles.content}>
+      <div className={cn(styles.content, 'content')}>
         <header className={styles.header} id="main">
           {'category' in frontmatter ? (
             <Link href={`/kategorie/${slugify(frontmatter.category, { lower: true })}`}>
