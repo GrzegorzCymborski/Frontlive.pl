@@ -22,6 +22,14 @@ Mogę z pewnością rekomendować Olafa jako wybitną i profesjonalną osobę.`,
     },
   },
   {
+    content: `Programista z powołania - zawsze merytoryczny, świetnie przygotowany oraz, co bardzo cenię, elokwentny i komunikatywny. Olaf ma świetny styl pisania, dzięki czemu bloga o frontendzie czyta się z zapartym tchem 😅 Ma również spory wkład w tworzenie i rozwój community frontendowego - chętnie pomaga rozwiązywać problemy związane z kodem, bardzo celnie punktuje niedoskonałe fragmenty kodu podczas code review oraz doskonale radzi sobie w trudnej sztuce tworzenia wartościowego feedbacku. Z tym człowiekiem aż chce się pracować!`,
+    author: {
+      image: '/images/rekomendacje/sylwia-fluder.jpg',
+      name: 'Sylwia Fluder',
+      company: 'Software Engineer w BizCode',
+    },
+  },
+  {
     content:
       'Olaf jest przede wszystkim super uprzejmym gościem :D. Często udziela się w community - pomaga innym i można z nim podyskutować. Bardzo lubię poczytać sobie również jego bloga - wszystko jest na miejscu. Artykuły są dopracowane i w pełni poprawne merytorycznie oraz prezentują zagadnienia na które nie zwraca się zawsze uwagi. Polecam śledzić twórczość Olafa, bo można tym sposobem się wiele nauczyć!',
     author: {
