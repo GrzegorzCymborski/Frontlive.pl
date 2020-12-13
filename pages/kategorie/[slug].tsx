@@ -44,7 +44,7 @@ export default function Kategoria({ posts }: InferGetStaticPropsType<typeof getS
   const title = `Frontlive - ${category}`;
   const description = `Artykuły znalezione w kategorii ${title}`;
   const url = `https://frontlive.pl/kategorie/${slug}`;
-  const categoryImage = `https://frontlive.vercel.app/images/categories/category-${slug}.png`;
+  const categoryImage = `https://frontlive.pl/images/categories/category-${slug}.png`;
   return (
     <>
       <NextSeo

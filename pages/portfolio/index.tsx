@@ -21,7 +21,7 @@ export const getStaticProps: GetStaticProps = async () => {
 const title = 'Frontlive.pl - Portfolio';
 const description = 'Przedstawienie moich projektów Open source';
 const url = 'https://frontlive.pl/portfolio';
-const portfolioImage = `https://frontlive.vercel.app/images/portfolio.png`;
+const portfolioImage = `https://frontlive.pl/images/portfolio.png`;
 
 export default function PortfolioPage({
   projects,
