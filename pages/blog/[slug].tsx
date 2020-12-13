@@ -44,7 +44,7 @@ const BlogPost = ({
   const content = hydrate(transformedMdx, { components: customMdxComponents });
   const { title, excerpt, publishedAt, slug, image } = frontmatter;
   const url = `http://frontlive.pl/blog/${slug}`;
-  const articleImage = `http://frontlive.vercel.app/${image}`;
+  const articleImage = `http://frontlive.vercel.app${image}`;
 
   return (
     <>

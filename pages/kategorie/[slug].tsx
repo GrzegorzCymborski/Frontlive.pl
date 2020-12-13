@@ -40,9 +40,11 @@ export default function Kategoria({ posts }: InferGetStaticPropsType<typeof getS
   const {
     query: { slug },
   } = useRouter();
-  const title = `Frontlive - ${posts[0].category}`;
+  const category = posts[0].category;
+  const title = `Frontlive - ${category}`;
   const description = `Artykuły znalezione w kategorii ${title}`;
   const url = `https://frontlive.pl/kategorie/${slug}`;
+  const categoryImage = `https://frontlive.vercel.app/images/categories/category-${slug}.png`;
   return (
     <>
       <NextSeo
@@ -55,7 +57,7 @@ export default function Kategoria({ posts }: InferGetStaticPropsType<typeof getS
           description,
           images: [
             {
-              url: `https://frontlive.vercel.app/images/category-${slug}.png`,
+              url: categoryImage,
               alt: title,
               width: 1200,
               height: 628,
@@ -65,12 +67,11 @@ export default function Kategoria({ posts }: InferGetStaticPropsType<typeof getS
       />
       <Layout>
         <Navigation />
-        <CategoryPageTemplate posts={posts} category={posts[0].category} />
+        <CategoryPageTemplate posts={posts} category={category} />
       </Layout>
       <Workshop />
-     
-        <Footer />
-      
+
+      <Footer />
     </>
   );
 }
