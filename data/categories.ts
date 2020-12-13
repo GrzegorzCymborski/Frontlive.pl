@@ -53,31 +53,31 @@ export const categories: Category[] = [
   {
     title: 'Recenzje',
     path: 'recenzje',
-    image: '/images/recenzje.png',
+    image: '/images/categories/recenzje.png',
     variant: 'green',
   },
   {
     title: 'Firebase',
     path: 'firebase',
-    image: '/images/firebase.png',
+    image: '/images/categories/firebase.png',
     variant: 'orange',
   },
   {
     title: 'DevOps',
     path: 'devops',
-    image: '/images/devops.png',
+    image: '/images/categories/devops.png',
     variant: 'black',
   },
   {
     title: 'Inne',
     path: 'inne',
-    image: '/images/inne.png',
+    image: '/images/categories/inne.png',
     variant: 'yellow',
   },
   {
     title: 'Webpack',
     path: 'webpack',
-    image: '/images/webpack.png',
+    image: '/images/categories/webpack.png',
     variant: 'blue',
   },
 ];
