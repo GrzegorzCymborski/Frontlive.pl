@@ -1,6 +1,15 @@
 export const recommendations = [
   {
     content:
+      'Olaf jest super gościem i niezwykle wartościowym członkiem społeczności. Bardzo ochoczo i merytorycznie pomaga innym, gdy tego potrzebują. Jednocześnie sam jest bardzo otwarty na wszelką krytykę, chętnie ją przyjmuje i czerpie z niej jak najwięcej, aby się samodoskonalić jako programista. 10/10, zatrudniałbym.',
+    author: {
+      image: '/images/rekomendacje/michal-miszczyszyn.jpg',
+      name: 'Michał Miszczyszyn',
+      company: 'Tech Lead w X-Team/CTO w Type of Web',
+    },
+  },
+  {
+    content:
       'Olaf zrealizował na przeprogramowani.pl cieszący się popularnością kurs “Gatsby.js  - od zera do gotowej aplikacji”. W przygotowanych materiałach wykazał się świetną znajomością Gatsby.js oraz React.js. Regularnie publikowane przez Olafa materiały na blogu frontlive.pl wskazują na jego chęć do ciągłego rozwoju oraz pogłębiania wiedzy z zakresu programowania frontendowego. Współpraca z Olafem to sama przyjemność. Mimo młodego wieku cechuje go wysoki poziom kompetencji miękkich oraz etyki pracy.',
     author: {
       image: '/images/rekomendacje/marcin-czarkowski.jpg',
