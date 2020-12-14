@@ -1,6 +1,6 @@
 export const frontendSkills = [
   'Html',
-  'CSS(Scss)',
+  'CSS (SCSS)',
   'JavaScript',
   'TypeScript',
   'React & Redux',
