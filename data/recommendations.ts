@@ -5,7 +5,7 @@ export const recommendations = [
     author: {
       image: '/images/rekomendacje/michal-miszczyszyn.jpg',
       name: 'Michał Miszczyszyn',
-      company: 'Tech Lead w X-Team/CTO w Type of Web',
+      company: 'Tech Lead w X-Team/CEO w Type of Web',
     },
   },
   {
@@ -27,7 +27,7 @@ Mogę z pewnością rekomendować Olafa jako wybitną i profesjonalną osobę.`,
     author: {
       image: '/images/rekomendacje/dominik-palacz.jpg',
       name: 'Dominik Palacz',
-      company: 'CTO w Hypnocoders',
+      company: 'CEO w Hypnocoders',
     },
   },
   {
@@ -44,7 +44,7 @@ Mogę z pewnością rekomendować Olafa jako wybitną i profesjonalną osobę.`,
     author: {
       image: '/images/rekomendacje/adam-siekierski.jpg',
       name: 'Adam Siekierski',
-      company: 'CTO w Require Podcast',
+      company: 'CEO w Require Podcast',
     },
   },
   {
