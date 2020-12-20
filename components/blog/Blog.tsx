@@ -1,16 +1,11 @@
 import { memo } from 'react';
 import { PostsListing } from './postsListing/PostsListing';
 import { Heading } from 'components/shared/components/heading/Heading';
+import type { Post } from '../../types/types';
 import styles from './blog.module.scss';
 
-type Post = {
-  slug: string;
-  title: string;
-  excerpt: string;
-};
-
 type BlogProps = {
-  posts: Post[];
+  readonly posts: Post[];
 };
 
 export const Blog = memo<BlogProps>(({ posts }) => (

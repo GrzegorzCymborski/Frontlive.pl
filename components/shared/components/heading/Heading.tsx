@@ -1,13 +1,13 @@
 import { memo, ReactNode } from 'react';
-import styles from './heading.module.scss';
 import cn from 'classnames';
+import type { Heading as HeadingTag } from '../../../../types/types';
+import styles from './heading.module.scss';
 
-type Tag = 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6';
 type Variant = 'primary' | 'secondary' | 'tertiary';
 
 type HeadingProps = {
   children: ReactNode;
-  tag: Tag;
+  tag: HeadingTag;
   variant: Variant;
   className?: string;
 };

@@ -3,7 +3,7 @@ import styles from './softSkillsList.module.scss';
 import { CheckMark } from '../../../../shared/components/checkMark/CheckMark';
 
 type SoftSkillsListProps = {
-  skills: string[];
+  readonly skills: string[];
 };
 
 export const SoftSkillsList = memo<SoftSkillsListProps>(({ skills }) => (

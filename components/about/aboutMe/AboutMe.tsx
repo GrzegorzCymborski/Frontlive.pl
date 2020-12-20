@@ -1,8 +1,8 @@
 import Image from 'next/image';
 import { Heading } from '../../shared/components/heading/Heading';
 import { Contact } from './contact/Contact';
-import styles from './aboutMe.module.scss';
 import { Sparkles } from '../../shared/components/sparkles/Sparkles';
+import styles from './aboutMe.module.scss';
 
 export const AboutMe = () => (
   <section className={styles.wrapper}>

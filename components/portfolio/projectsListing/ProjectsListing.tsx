@@ -1,17 +1,7 @@
 import { memo } from 'react';
-import styles from './projectsListing.module.scss';
 import { ProjectThumbnail } from './projectThumbnail/ProjectThumbnail';
-
-type Variant = 'blue' | 'green' | 'orange' | 'yellow' | 'purple' | 'black';
-
-type Project = {
-  title: string;
-  excerpt: string;
-  slug: string;
-  image: string;
-  variant: Variant;
-  technologies: string[];
-};
+import type { Project } from '../../../types/types';
+import styles from './projectsListing.module.scss';
 
 type ProjectsListingProps = {
   projects: Project[];

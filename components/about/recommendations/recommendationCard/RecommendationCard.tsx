@@ -3,11 +3,11 @@ import styles from './recommendationCard.module.scss';
 import QuoteIcon from '../../../../public/icons/quote.svg';
 
 type RecommendationCardProps = {
-  content: string;
-  author: {
-    image: string;
-    name: string;
-    company: string;
+  readonly content: string;
+  readonly author: {
+    readonly image: string;
+    readonly name: string;
+    readonly company: string;
   };
 };
 

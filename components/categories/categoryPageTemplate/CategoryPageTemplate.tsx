@@ -1,17 +1,12 @@
 import { memo } from 'react';
 import { PostsListing } from '../../blog/postsListing/PostsListing';
 import { Heading } from 'components/shared/components/heading/Heading';
+import type { Post } from '../../../types/types';
 import styles from './categoryPageTemplate.module.scss';
 
-type Post = {
-  slug: string;
-  title: string;
-  excerpt: string;
-};
-
 type CategoryPageTemplateProps = {
-  posts: Post[];
-  category: string;
+  readonly posts: Post[];
+  readonly category: string;
 };
 
 export const CategoryPageTemplate = memo<CategoryPageTemplateProps>(({ posts, category }) => (

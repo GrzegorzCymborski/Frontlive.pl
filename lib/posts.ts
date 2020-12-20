@@ -3,7 +3,7 @@ import slugify from 'slugify';
 import dayjs from 'dayjs';
 import customParseFormat from 'dayjs/plugin/customParseFormat';
 import { getResourcesPaths, getResourceBySlug, getAllResources } from './utils/resource';
-import type { Post } from './utils/types';
+import type { Post } from '../types/types';
 
 dayjs.extend(customParseFormat);
 

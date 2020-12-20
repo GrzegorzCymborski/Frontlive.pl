@@ -64,11 +64,6 @@ class MyDocument extends Document {
           <meta name="theme-color" content="#ffffff" />
           <meta name="apple-mobile-web-app-title" content="Frontlive" />
           <script
-            defer
-            src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GA_TRACKING_ID}`}
-          />
-          <script
-            defer
             dangerouslySetInnerHTML={{
               __html: `
                 window.dataLayer = window.dataLayer || [];
@@ -79,6 +74,10 @@ class MyDocument extends Document {
                 });
           `,
             }}
+          />
+          <script
+            defer
+            src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GA_TRACKING_ID}`}
           />
         </Head>
         <body>

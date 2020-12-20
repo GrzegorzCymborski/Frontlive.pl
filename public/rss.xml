@@ -4,12 +4,21 @@
         <description><![CDATA[Frontlive.pl by Olaf Sulich]]></description>
         <link>https://frontlive.pl</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 04 Dec 2020 20:39:16 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 20 Dec 2020 17:21:34 GMT</lastBuildDate>
         <atom:link href="https://frontlive.pl/rss.xml" rel="self" type="application/rss+xml"/>
         <copyright><![CDATA[2020 Olaf Sulich]]></copyright>
         <language><![CDATA[pl]]></language>
         <managingEditor><![CDATA[Olaf Sulich]]></managingEditor>
         <webMaster><![CDATA[Olaf Sulich]]></webMaster>
+        <item>
+            <title><![CDATA[Nowoczesny CSS - CSS Variables]]></title>
+            <description><![CDATA[Chociaż CSS nie jest językiem programowania to posiada swoje zmienne. Czym są i jak się ich używa? Do jakich celów możesz je wykorzystać?]]></description>
+            <link>https://frontlive.pl/blog/css-variables</link>
+            <guid isPermaLink="false">css-variables</guid>
+            <category><![CDATA[CSS]]></category>
+            <dc:creator><![CDATA[Olaf Sulich]]></dc:creator>
+            <pubDate>Invalid Date</pubDate>
+        </item>
         <item>
             <title><![CDATA[Nowy rok, nowy Frontlive!]]></title>
             <description><![CDATA[Kulisy powstawania nowej odsłony Frontlive - mojego bloga i jednocześnie strony portfolio. Jak dobrałem technologię do projektu? Z jakimi wyzwaniami się mierzyłem?]]></description>

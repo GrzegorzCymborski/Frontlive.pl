@@ -11,14 +11,15 @@ import { Sparkles } from '../../components/shared/components/sparkles/Sparkles';
 import { Player } from '../../components/mdx/player/Player';
 import { Image } from '../../components/mdx/image/Image';
 
-export const getStaticProps: GetStaticProps = async ({ params }: any) => {
-  const { transformedMdx, frontmatter } = await getPostBySlug(params.slug);
+export const getStaticProps: GetStaticProps = async ({ params }) => {
+  const slug = params!.slug as string;
+  const { transformedMdx, frontmatter } = await getPostBySlug(slug);
 
   return {
     props: {
       transformedMdx,
       frontmatter: {
-        slug: params.slug,
+        slug,
         ...frontmatter,
       },
     },

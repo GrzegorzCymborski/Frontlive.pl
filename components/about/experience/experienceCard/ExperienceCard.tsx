@@ -2,10 +2,10 @@ import { memo } from 'react';
 import styles from './experienceCard.module.scss';
 
 type ExperienceCardProps = {
-  title: string;
-  description: string;
-  duration: string;
-  image: string;
+  readonly title: string;
+  readonly description: string;
+  readonly duration: string;
+  readonly image: string;
 };
 
 export const ExperienceCard = memo<ExperienceCardProps>(

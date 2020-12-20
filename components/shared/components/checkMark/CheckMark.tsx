@@ -1,9 +1,8 @@
 import { memo } from 'react';
-import CheckMarkIcon from '../../../../public/icons/check-mark.svg';
-import styles from './checkMark.module.scss';
 import cn from 'classnames';
-
-type Variant = 'blue' | 'green' | 'orange' | 'yellow' | 'purple' | 'black';
+import CheckMarkIcon from '../../../../public/icons/check-mark.svg';
+import type { Variant } from '../../../../types/types';
+import styles from './checkMark.module.scss';
 
 type CheckMarkProps = {
   variant: Variant;

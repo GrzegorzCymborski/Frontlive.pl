@@ -2,7 +2,9 @@ import styles from './header.module.scss';
 import { Hero } from './hero/Hero';
 import type { ReactNode } from 'react';
 
-type HeaderProps = { children: ReactNode };
+type HeaderProps = {
+  readonly children: ReactNode;
+};
 
 export const Header = ({ children }: HeaderProps) => {
   return (

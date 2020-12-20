@@ -1,11 +1,4 @@
-type Variant = 'blue' | 'green' | 'orange' | 'yellow' | 'purple' | 'black';
-
-type Category = {
-  title: string;
-  path: string;
-  image: string;
-  variant: Variant;
-};
+import type { Category } from '../types/types';
 
 export const categories: Category[] = [
   {

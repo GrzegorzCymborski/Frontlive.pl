@@ -1,6 +1,6 @@
 import path from 'path';
 import { getResourceBySlug, getResourcesPaths, getAllResources } from './utils/resource';
-import type { Project } from './utils/types';
+import type { Project } from '../types/types';
 
 const PROJECTS_PATH = path.join(process.cwd(), 'content/projects');
 

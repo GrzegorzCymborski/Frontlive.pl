@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import { transformMdx } from '../mdx';
 import matter from 'gray-matter';
-import type { PostFrontmatter, ProjectFrontmatter, Post, Project } from './types';
+import type { PostFrontmatter, ProjectFrontmatter, Post, Project } from '../../types/types';
 
 type ResourceFrontmatter = PostFrontmatter | ProjectFrontmatter;
 type Resource = Post | Project;

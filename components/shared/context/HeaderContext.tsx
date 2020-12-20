@@ -3,7 +3,7 @@ import { useToggle } from '../utils/useToggle';
 
 type State = {
   isMenuVisible: boolean;
-  toogleMenu: () => void;
+  toggleMenu: () => void;
 };
 
 type HeaderProviderProps = { children: ReactNode };
@@ -11,10 +11,10 @@ type HeaderProviderProps = { children: ReactNode };
 const HeaderStateContext = createContext<State | undefined>(undefined);
 
 export const HeaderProvider = ({ children }: HeaderProviderProps) => {
-  const [isMenuVisible, toogleMenu] = useToggle();
+  const [isMenuVisible, toggleMenu] = useToggle();
 
   return (
-    <HeaderStateContext.Provider value={{ isMenuVisible, toogleMenu }}>
+    <HeaderStateContext.Provider value={{ isMenuVisible, toggleMenu }}>
       {children}
     </HeaderStateContext.Provider>
   );

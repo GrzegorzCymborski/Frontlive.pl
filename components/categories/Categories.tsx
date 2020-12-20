@@ -1,19 +1,11 @@
 import { memo } from 'react';
 import { Heading } from 'components/shared/components/heading/Heading';
 import { CategoriesList } from './categoriesList/CategoriesList';
+import type { Variant, Category } from '../../types/types';
 import styles from './categories.module.scss';
 
-type Variant = 'blue' | 'green' | 'orange' | 'yellow' | 'purple' | 'black';
-
-type Category = {
-  title: string;
-  path: string;
-  image: string;
-  variant: Variant;
-};
-
 type CategoriesProps = {
-  categories: Category[];
+  readonly categories: Category[];
 };
 
 export const Categories = memo<CategoriesProps>(({ categories }) => {

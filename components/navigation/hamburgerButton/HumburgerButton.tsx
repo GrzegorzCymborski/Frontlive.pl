@@ -4,14 +4,14 @@ import cn from 'classnames';
 import { useHeaderState } from '../../shared/context/HeaderContext';
 
 export const HamburgerButton = memo(() => {
-  const { isMenuVisible, toogleMenu } = useHeaderState();
+  const { isMenuVisible, toggleMenu } = useHeaderState();
 
   return (
     <button
       aria-haspopup="true"
       aria-controls="navigation"
       aria-expanded={isMenuVisible}
-      onClick={toogleMenu}
+      onClick={toggleMenu}
       className={cn(styles.hamburger, {
         [styles.hamburgerOpen]: isMenuVisible,
       })}

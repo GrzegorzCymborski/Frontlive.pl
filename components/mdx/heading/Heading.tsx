@@ -1,12 +1,11 @@
 import { memo, ReactNode } from 'react';
 import cn from 'classnames';
+import type { Heading as HeadingVariant } from '../../../types/types';
 import styles from './heading.module.scss';
-
-type Tag = 'h2' | 'h3' | 'h4' | 'h5' | 'h6';
 
 type HeadingProps = {
   children: ReactNode;
-  tag: Tag;
+  tag: HeadingVariant;
   id: string;
 };
 

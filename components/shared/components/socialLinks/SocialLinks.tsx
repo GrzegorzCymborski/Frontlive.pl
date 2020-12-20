@@ -5,29 +5,27 @@ import TwitterIcon from '../../../../public/icons/twitter.svg';
 import FacebookIcon from '../../../../public/icons/facebook.svg';
 import { SocialLink } from './socialLink/SocialLink';
 
+const socialLinksData = [
+  { href: 'https://github.com/olafsulich', icon: GitHubIcon, label: 'Repozytorium na GitHubie' },
+  {
+    href: 'https://www.linkedin.com/in/olaf-sulich',
+    icon: LinkedInIcon,
+    label: 'Profil LinkedIn',
+  },
+  { href: 'https://twitter.com/sulich_olaf', icon: TwitterIcon, label: 'Konto na Twitterze' },
+  {
+    href: 'https://www.facebook.com/Frontlivepl-104804118165557',
+    icon: FacebookIcon,
+    label: 'Strona na Facebooku',
+  },
+];
+
 export const SocialLinks = () => {
   return (
     <div className={styles.wrapper}>
-      <SocialLink
-        href="https://github.com/olafsulich"
-        icon={GitHubIcon}
-        label="Repozytorium na GitHubie"
-      />
-      <SocialLink
-        href="https://www.linkedin.com/in/olaf-sulich"
-        icon={LinkedInIcon}
-        label="Profil LinkedIn"
-      />
-      <SocialLink
-        href="https://twitter.com/sulich_olaf"
-        icon={TwitterIcon}
-        label="Konto na Twitterze"
-      />
-      <SocialLink
-        href="https://www.facebook.com/Frontlivepl-104804118165557"
-        icon={FacebookIcon}
-        label="Strona na Facebooku"
-      />
+      {socialLinksData.map(({ href, icon, label }) => (
+        <SocialLink href={href} icon={icon} label={label} />
+      ))}
     </div>
   );
 };

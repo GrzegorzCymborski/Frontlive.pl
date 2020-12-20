@@ -3,9 +3,8 @@ import Link from 'next/link';
 import cn from 'classnames';
 import { CheckMark } from '../../../shared/components/checkMark/CheckMark';
 import ArrowRightIcon from '../../../../public/icons/arrow-right.svg';
+import type { Variant } from '../../../../types/types';
 import styles from './projectThumbnail.module.scss';
-
-type Variant = 'blue' | 'green' | 'orange' | 'yellow' | 'purple' | 'black';
 
 type ProjectThumbnailProps = {
   index: number;

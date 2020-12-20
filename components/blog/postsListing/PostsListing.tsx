@@ -1,21 +1,14 @@
 import { memo, ReactNode } from 'react';
-import styles from './postsListing.module.scss';
-import { PostThumbnail } from './postThumbnail/PostThumbnail';
 import cn from 'classnames';
-
-type PostThumbnailHeadingTag = 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6';
-
-type Post = {
-  slug: string;
-  title: string;
-  excerpt: string;
-};
+import { PostThumbnail } from './postThumbnail/PostThumbnail';
+import type { Heading, Post } from '../../../types/types';
+import styles from './postsListing.module.scss';
 
 type PostsListingProps = {
-  children: ReactNode;
-  posts: Post[];
-  headingTag?: PostThumbnailHeadingTag;
-  primary?: boolean;
+  readonly children: ReactNode;
+  readonly posts: Post[];
+  readonly headingTag?: Heading;
+  readonly primary?: boolean;
 };
 
 export const PostsListing = memo(

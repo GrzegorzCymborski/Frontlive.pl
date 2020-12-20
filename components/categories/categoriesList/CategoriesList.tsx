@@ -1,22 +1,12 @@
 import { memo } from 'react';
 import { CategoryCard } from '../categoryCard/CategoryCard';
+import { Category } from '../../../types/types';
 import styles from './categoriesList.module.scss';
 
-type Variant = 'blue' | 'green' | 'orange' | 'yellow' | 'purple' | 'black';
-
-type Category = {
-  title: string;
-  path: string;
-  image: string;
-  variant: Variant;
-};
-
-type Tag = 'section' | 'div';
-
 type CategoriesListProps = {
-  categories: Category[];
-  tag: Tag;
-  label?: string;
+  readonly categories: Category[];
+  readonly tag: 'section' | 'div';
+  readonly label?: string;
 };
 
 export const CategoriesList = memo<CategoriesListProps>(

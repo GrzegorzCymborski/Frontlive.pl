@@ -1,17 +1,13 @@
 import { NextSeo } from 'next-seo';
 import { GetStaticProps, InferGetStaticPropsType } from 'next';
 import { useRouter } from 'next/router';
+import slugify from 'slugify';
 import { Layout } from '../../components/layout/Layout';
 import { Navigation } from '../../components/navigation/Navigation';
 import { Footer } from 'components/footer/Footer';
 import { Workshop } from '../../components/workshop/Workshop';
 import { getPostsByCategory, getAllPosts } from 'lib/posts';
-import slugify from 'slugify';
 import { CategoryPageTemplate } from '../../components/categories/categoryPageTemplate/CategoryPageTemplate';
-
-type Params = {
-  slug: string;
-};
 
 export const getStaticProps: GetStaticProps = async ({ params }) => {
   const posts = await getPostsByCategory(params!.slug as string);
@@ -70,7 +66,6 @@ export default function Kategoria({ posts }: InferGetStaticPropsType<typeof getS
         <CategoryPageTemplate posts={posts} category={category} />
       </Layout>
       <Workshop />
-
       <Footer />
     </>
   );

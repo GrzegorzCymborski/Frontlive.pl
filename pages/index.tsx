@@ -28,6 +28,7 @@ export default function Home({
   newestPosts,
   popularPosts,
 }: InferGetStaticPropsType<typeof getStaticProps>) {
+  const newestCategories = categories.slice(0, 3);
   useEffect(() => {
     console.log(`
     #     #      #######                             ### 
@@ -39,7 +40,6 @@ export default function Home({
     #     # #       #    #    # ###### #    # ###### ### 
     `);
     console.log('Ta strona została zaprojektowana i wykonana przez Olafa Sulicha 🎨 🖥️');
-    console.log('Miłej zabawy w konsoli <3');
   });
 
   return (
@@ -54,11 +54,7 @@ export default function Home({
               Najnowsze
             </Heading>
           </PostsListing>
-          <CategoriesList
-            label="Popularne kategorie"
-            tag="section"
-            categories={categories.slice(0, 3)}
-          />
+          <CategoriesList label="Popularne kategorie" tag="section" categories={newestCategories} />
           <PostsListing posts={popularPosts}>
             <Heading tag="h2" variant="secondary">
               Najpopularniejsze

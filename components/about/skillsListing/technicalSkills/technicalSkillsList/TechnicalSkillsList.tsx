@@ -1,13 +1,12 @@
 import { memo } from 'react';
 import styles from './technicalSkillsList.module.scss';
 import { CheckMark } from '../../../../shared/components/checkMark/CheckMark';
-
-type Variant = 'blue' | 'green' | 'orange' | 'yellow' | 'purple' | 'black';
+import type { Variant } from '../../../../../types/types';
 
 type TechnicalSkillsListProps = {
-  title: string;
-  variant: Variant;
-  skills: string[];
+  readonly title: string;
+  readonly variant: Variant;
+  readonly skills: string[];
 };
 
 export const TechnicalSkillsList = memo<TechnicalSkillsListProps>(({ title, variant, skills }) => (

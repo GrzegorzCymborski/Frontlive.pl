@@ -5,17 +5,8 @@ import slugify from 'slugify';
 import cn from 'classnames';
 import { Heading } from 'components/shared/components/heading/Heading';
 import { Footer } from './footer/Footer';
+import type { PostFrontmatter, ProjectFrontmatter } from '../../types/types';
 import styles from './mdx.module.scss';
-
-type PostFrontmatter = {
-  title: string;
-  category: string;
-  publishedAt: string;
-};
-
-type ProjectFrontmatter = {
-  title: string;
-};
 
 type MdxProps = {
   frontmatter: PostFrontmatter | ProjectFrontmatter;

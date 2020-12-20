@@ -1,19 +1,8 @@
 import { memo } from 'react';
 import { Heading } from 'components/shared/components/heading/Heading';
 import { ProjectsListing } from './projectsListing/ProjectsListing';
+import type { Project } from '../../types/types';
 import styles from './portfolio.module.scss';
-
-type Variant = 'blue' | 'green' | 'orange' | 'yellow' | 'purple' | 'black';
-
-type Project = {
-  title: string;
-  excerpt: string;
-  path: string;
-  image: string;
-  variant: Variant;
-  technologies: string[];
-  slug: string;
-};
 
 type PortfolioProps = {
   projects: Project[];
