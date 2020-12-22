@@ -14,7 +14,7 @@ const socialLinksData = [
   },
   { href: 'https://twitter.com/sulich_olaf', icon: TwitterIcon, label: 'Konto na Twitterze' },
   {
-    href: 'https://www.facebook.com/Frontlivepl-104804118165557',
+    href: 'https://www.facebook.com/frontlivepl',
     icon: FacebookIcon,
     label: 'Strona na Facebooku',
   },
