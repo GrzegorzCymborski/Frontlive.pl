@@ -3,8 +3,9 @@
 .pre[class*='language-'],
 .pre {
   margin: 4rem 0;
-  overflow-x: scroll;
-  overflow-y: hidden;
+  // overflow-x: scroll;
+  // overflow-y: hidden;
+  overflow: auto;
   font-size: 1.7rem;
   line-height: 1.7;
   width: 100%;
