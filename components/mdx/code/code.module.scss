@@ -3,6 +3,7 @@
   font-family: 'Fira Mono', monospace;
   font-weight: 500;
   overflow: auto;
+  display: block;
 
   @include mediaquery('lg') {
     &::-webkit-scrollbar {
