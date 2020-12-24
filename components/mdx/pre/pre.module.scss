@@ -3,9 +3,7 @@
 .pre[class*='language-'],
 .pre {
   margin: 4rem 0;
-  // overflow-x: scroll;
-  // overflow-y: hidden;
-  overflow: auto;
+  overflow: hidden;
   font-size: 1.7rem;
   line-height: 1.7;
   width: 100%;
@@ -29,19 +27,6 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
-
-  &::-webkit-scrollbar {
-    height: 8px;
-  }
-
-  &::-webkit-scrollbar-track {
-    background: transparent;
-  }
-
-  &::-webkit-scrollbar-thumb {
-    background-color: var(--black-100);
-    border-radius: 12px;
-  }
 
   @include mediaquery('lg') {
     border-radius: 1.8rem;

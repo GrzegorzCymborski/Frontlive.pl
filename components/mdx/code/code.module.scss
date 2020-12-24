@@ -1,4 +1,21 @@
+@import 'common';
 .code {
   font-family: 'Fira Mono', monospace;
   font-weight: 500;
+  overflow: auto;
+
+  @include mediaquery('lg') {
+    &::-webkit-scrollbar {
+      height: 8px;
+    }
+
+    &::-webkit-scrollbar-track {
+      background: transparent;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background-color: var(--black-100);
+      border-radius: 12px;
+    }
+  }
 }
