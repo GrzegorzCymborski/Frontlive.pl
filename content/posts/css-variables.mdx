@@ -222,7 +222,7 @@ Do pobrania zmiennej wykorzystujemy metodę obiektu globalnego window `getComput
 const primaryColor = getComputedStyle(document.documentElement).getPropertyValue('--primary-color');
 ```
 
-Znacznie ciekawiej wygląda modyfikowanie zmiennej. Tutaj, na prawdę, <Sparkles>ogranicza nas tylko nasz kreatywność.</Sparkles> Tym razem również korzystamy z `document.documentElement`, ale trochę w innym kontekście. Tutaj dostajemy się do obiektu style, a w nim do metody `setProperty`, w której możemy modyfikować naszą zmienną.
+Znacznie ciekawiej wygląda modyfikowanie zmiennej. Tutaj, naprawdę, <Sparkles>ogranicza nas tylko nasz kreatywność.</Sparkles> Tym razem również korzystamy z `document.documentElement`, ale trochę w innym kontekście. Tutaj dostajemy się do obiektu style, a w nim do metody `setProperty`, w której możemy modyfikować naszą zmienną.
 
 Spójrzmy na przykład. W JavaScripcie nasłuchujemy na zdarzenie `mousemove`, następnie pobieramy `clientX` i `clientY` i ustawiamy je jako wartości dla wcześniej przygotowanych zmiennych. Dzięki temu nasz _box_ będzie podążał za kursorem myszki.
 
