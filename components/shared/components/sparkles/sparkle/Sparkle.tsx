@@ -25,3 +25,5 @@ export const Sparkle = memo<SparkleProps>(({ size, color, style }) => {
     </span>
   );
 });
+
+Sparkle.displayName = 'Pre';

@@ -23,3 +23,5 @@ export const CategoryCard = memo<Category>(({ title, path, variant, image }) => 
     </article>
   );
 });
+
+CategoryCard.displayName = 'CategoryCard';

@@ -13,3 +13,5 @@ export const Layout = memo<LayoutProps>(({ children }) => {
     </HeaderProvider>
   );
 });
+
+Layout.displayName = 'Layout';

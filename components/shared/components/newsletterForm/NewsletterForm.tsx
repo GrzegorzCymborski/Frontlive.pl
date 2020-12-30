@@ -8,7 +8,7 @@ type NewsletterFormProps = {
   id: string;
 };
 
-export const NewsletterForm = memo(({ id = 'email' }: NewsletterFormProps) => {
+export const NewsletterForm = memo<NewsletterFormProps>(({ id = 'email' }) => {
   const [inputValue, setInputValue] = useState('');
   const [status, setStatus] = useState('normal');
   const [title, setTitle] = useState('Subskrybuj');
@@ -65,3 +65,5 @@ export const NewsletterForm = memo(({ id = 'email' }: NewsletterFormProps) => {
     </form>
   );
 });
+
+NewsletterForm.displayName = 'NewsletterForm';

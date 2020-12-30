@@ -13,3 +13,5 @@ export const CheckMark = memo<CheckMarkProps>(({ variant }) => (
     <CheckMarkIcon />
   </span>
 ));
+
+CheckMark.displayName = 'CheckMark';

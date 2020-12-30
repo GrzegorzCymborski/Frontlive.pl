@@ -8,3 +8,5 @@ type ParagraphProps = {
 export const Paragraph = memo(({ children }: ParagraphProps) => (
   <p className={styles.paragraph}>{children}</p>
 ));
+
+Paragraph.displayName = 'Paragraph';

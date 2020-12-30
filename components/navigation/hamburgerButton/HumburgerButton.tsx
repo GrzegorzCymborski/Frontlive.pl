@@ -20,3 +20,5 @@ export const HamburgerButton = memo(() => {
     </button>
   );
 });
+
+HamburgerButton.displayName = 'HamburgerButton';

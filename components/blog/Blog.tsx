@@ -17,3 +17,5 @@ export const Blog = memo<BlogProps>(({ posts }) => (
     </PostsListing>
   </main>
 ));
+
+Blog.displayName = 'Blog';

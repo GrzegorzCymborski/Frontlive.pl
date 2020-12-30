@@ -27,3 +27,5 @@ export const ProjectsListing = memo(({ projects }: ProjectsListingProps) => {
     </div>
   );
 });
+
+ProjectsListing.displayName = 'ProjectsListing';

@@ -25,3 +25,5 @@ export const ExperienceCard = memo<ExperienceCardProps>(
     </li>
   ),
 );
+
+ExperienceCard.displayName = 'ExperienceCard';

@@ -6,3 +6,5 @@ type PreProps = {
 };
 
 export const Pre = memo(({ children }: PreProps) => <pre className={styles.pre}>{children}</pre>);
+
+Pre.displayName = 'Pre';

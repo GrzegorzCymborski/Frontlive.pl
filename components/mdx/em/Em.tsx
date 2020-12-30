@@ -6,3 +6,5 @@ type EmProps = {
 };
 
 export const Em = memo(({ children }: EmProps) => <em className={styles.em}>{children}</em>);
+
+Em.displayName = 'Em';

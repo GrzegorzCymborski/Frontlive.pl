@@ -14,3 +14,5 @@ export const Heading = memo(({ children, tag: Tag = 'h2', id }: HeadingProps) =>
     {children}
   </Tag>
 ));
+
+Heading.displayName = 'Heading';

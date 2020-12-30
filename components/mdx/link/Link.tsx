@@ -11,3 +11,5 @@ export const Link = memo(({ children, href }: LinkProps) => (
     {children}
   </a>
 ));
+
+Link.displayName = 'Link';

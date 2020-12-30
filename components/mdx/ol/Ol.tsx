@@ -6,3 +6,5 @@ type olProps = {
 };
 
 export const Ol = memo(({ children }: olProps) => <ol className={styles.list}>{children}</ol>);
+
+Ol.displayName = 'Ol';

@@ -14,3 +14,5 @@ export const ListItem = memo<ListItemProps>(({ title, href }) => (
     </ActiveLink>
   </li>
 ));
+
+ListItem.displayName = 'ListItem';

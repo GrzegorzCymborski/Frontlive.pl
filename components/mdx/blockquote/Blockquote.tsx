@@ -8,3 +8,5 @@ type BlockquoteProps = {
 export const Blockquote = memo(({ children }: BlockquoteProps) => (
   <blockquote className={styles.blockquote}>{children}</blockquote>
 ));
+
+Blockquote.displayName = 'Blockquote';

@@ -44,3 +44,5 @@ export const ProjectThumbnail = memo<ProjectThumbnailProps>(
     );
   },
 );
+
+ProjectThumbnail.displayName = 'ProjectThumbnail';

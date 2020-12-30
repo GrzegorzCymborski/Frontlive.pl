@@ -17,3 +17,5 @@ export const LinksList = memo(() => {
     </ul>
   );
 });
+
+LinksList.displayName = 'LinksList';

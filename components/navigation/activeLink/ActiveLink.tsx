@@ -29,3 +29,5 @@ export const ActiveLink = memo<ActiveLinkProps>(
     );
   },
 );
+
+ActiveLink.displayName = 'ActiveLink';

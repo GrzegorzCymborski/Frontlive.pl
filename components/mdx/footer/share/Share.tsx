@@ -32,3 +32,5 @@ export const Share = memo<ShareProps>(({ title, url }) => (
     </FacebookShareButton>
   </div>
 ));
+
+Share.displayName = 'Share';

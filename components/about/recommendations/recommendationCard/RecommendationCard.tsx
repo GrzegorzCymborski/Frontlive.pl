@@ -33,3 +33,5 @@ export const RecommendationCard = memo<RecommendationCardProps>(({ content, auth
     </blockquote>
   );
 });
+
+RecommendationCard.displayName = 'RecommendationCard';

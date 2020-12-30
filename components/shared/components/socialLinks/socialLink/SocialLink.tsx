@@ -13,3 +13,5 @@ export const SocialLink = memo<SocialLinkProps>(({ href, icon: Icon, label }) =>
     <Icon className={styles.icon} />
   </a>
 ));
+
+SocialLink.displayName = 'SocialLink';

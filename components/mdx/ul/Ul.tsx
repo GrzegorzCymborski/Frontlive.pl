@@ -6,3 +6,5 @@ type UlProps = {
 };
 
 export const Ul = memo(({ children }: UlProps) => <ul className={styles.list}>{children}</ul>);
+
+Ul.displayName = 'Ul';

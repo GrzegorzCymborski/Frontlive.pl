@@ -44,3 +44,5 @@ export const Sparkles = memo<SparklesProps>(({ children }) => {
     </span>
   );
 });
+
+Sparkles.displayName = 'Sparkles';

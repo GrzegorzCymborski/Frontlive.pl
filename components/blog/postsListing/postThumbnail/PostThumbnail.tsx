@@ -30,3 +30,5 @@ export const PostThumbnail = memo<PostThumbnailProps>(
     );
   },
 );
+
+PostThumbnail.displayName = 'PostThumbnail';

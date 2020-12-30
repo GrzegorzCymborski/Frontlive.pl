@@ -8,3 +8,5 @@ type CodeProps = {
 export const Code = memo(({ children }: CodeProps) => (
   <code className={styles.code}>{children}</code>
 ));
+
+Code.displayName = 'Code';

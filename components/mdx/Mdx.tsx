@@ -49,3 +49,5 @@ export const Mdx = memo<MdxProps>(({ frontmatter, content }) => {
     </article>
   );
 });
+
+Mdx.displayName = 'Mdx';

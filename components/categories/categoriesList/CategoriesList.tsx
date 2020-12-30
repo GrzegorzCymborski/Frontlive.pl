@@ -25,3 +25,5 @@ export const CategoriesList = memo<CategoriesListProps>(
     </Tag>
   ),
 );
+
+CategoriesList.displayName = 'CategoriesList';

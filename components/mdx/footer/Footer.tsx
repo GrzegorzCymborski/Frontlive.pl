@@ -30,3 +30,5 @@ export const Footer = memo(({ publishedAt, url, title }: FooterProps) => {
     </footer>
   );
 });
+
+Footer.displayName = 'Footer';

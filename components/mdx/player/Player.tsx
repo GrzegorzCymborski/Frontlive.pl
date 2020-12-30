@@ -25,3 +25,5 @@ export const Player = memo(({ url, label }: PlayerProps) => (
     />
   </div>
 ));
+
+Player.displayName = 'Player';

@@ -18,3 +18,5 @@ export const Categories = memo<CategoriesProps>(({ categories }) => {
     </main>
   );
 });
+
+Categories.displayName = 'Categories';

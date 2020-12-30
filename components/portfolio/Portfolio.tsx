@@ -16,3 +16,5 @@ export const Portfolio = memo<PortfolioProps>(({ projects }) => (
     <ProjectsListing projects={projects} />
   </main>
 ));
+
+Portfolio.displayName = 'Portfolio';

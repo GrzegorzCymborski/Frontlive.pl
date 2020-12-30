@@ -127,3 +127,5 @@ export const MdxCompProvider = memo<ComponentProps>(({ children }) => {
 
   return <MDXProvider components={mdxComponents}>{children}</MDXProvider>;
 });
+
+MdxCompProvider.displayName = 'MdxCompProvider';

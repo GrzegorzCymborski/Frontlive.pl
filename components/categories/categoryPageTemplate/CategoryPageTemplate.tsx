@@ -18,3 +18,5 @@ export const CategoryPageTemplate = memo<CategoryPageTemplateProps>(({ posts, ca
     </PostsListing>
   </main>
 ));
+
+CategoryPageTemplate.displayName = 'CategoryPageTemplate';

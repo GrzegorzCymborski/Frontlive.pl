@@ -31,3 +31,5 @@ export const Image = memo(({ src, alt }: ImageProps) => {
     </>
   );
 });
+
+Image.displayName = 'Image';

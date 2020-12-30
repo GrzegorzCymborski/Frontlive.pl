@@ -28,3 +28,5 @@ export const Error = memo<ErrorProps>(({ heading }) => {
     </>
   );
 });
+
+Error.displayName = 'Error';

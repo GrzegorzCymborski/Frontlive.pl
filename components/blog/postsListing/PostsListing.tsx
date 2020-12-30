@@ -32,3 +32,5 @@ export const PostsListing = memo(
     );
   },
 );
+
+PostsListing.displayName = 'PostsListing';

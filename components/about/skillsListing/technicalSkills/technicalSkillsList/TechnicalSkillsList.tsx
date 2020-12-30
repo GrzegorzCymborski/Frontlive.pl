@@ -24,3 +24,5 @@ export const TechnicalSkillsList = memo<TechnicalSkillsListProps>(({ title, vari
     </ul>
   </article>
 ));
+
+TechnicalSkillsList.displayName = 'TechnicalSkillsList';

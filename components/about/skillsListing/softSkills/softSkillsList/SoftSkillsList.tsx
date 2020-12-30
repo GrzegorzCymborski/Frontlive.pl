@@ -18,3 +18,5 @@ export const SoftSkillsList = memo<SoftSkillsListProps>(({ skills }) => (
     </ul>
   </div>
 ));
+
+SoftSkillsList.displayName = 'SoftSkillsList';
