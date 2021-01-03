@@ -3,8 +3,8 @@ import ReactPlayer from 'react-player';
 import styles from './player.module.scss';
 
 type PlayerProps = {
-  url: string;
-  label?: string;
+  readonly url: string;
+  readonly label?: string;
 };
 
 export const Player = memo(({ url, label }: PlayerProps) => (

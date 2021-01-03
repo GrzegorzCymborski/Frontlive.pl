@@ -9,8 +9,8 @@ import type { PostFrontmatter, ProjectFrontmatter } from '../../types/types';
 import styles from './mdx.module.scss';
 
 type MdxProps = {
-  frontmatter: PostFrontmatter | ProjectFrontmatter;
-  content: string;
+  readonly frontmatter: PostFrontmatter | ProjectFrontmatter;
+  readonly content: string;
 };
 
 export const Mdx = memo<MdxProps>(({ frontmatter, content }) => {
@@ -27,7 +27,7 @@ export const Mdx = memo<MdxProps>(({ frontmatter, content }) => {
         <header className={styles.header} id="main">
           {'category' in frontmatter ? (
             <Link href={`/kategorie/${slugify(frontmatter.category, { lower: true })}`}>
-              <a className={styles.category}>
+              <a className={cn(styles.category, 'categoryLink')}>
                 <span className="visually-hidden">Kategoria:</span>
                 <span>{frontmatter.category}</span>
               </a>

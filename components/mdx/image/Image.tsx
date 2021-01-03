@@ -2,8 +2,8 @@ import { memo } from 'react';
 import styles from './image.module.scss';
 
 type ImageProps = {
-  src: string;
-  alt: string;
+  readonly src: string;
+  readonly alt: string;
 };
 
 const EXTERNAL_IMAGE_PATTERN = /\http/;

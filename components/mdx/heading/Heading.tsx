@@ -4,15 +4,23 @@ import type { Heading as HeadingVariant } from '../../../types/types';
 import styles from './heading.module.scss';
 
 type HeadingProps = {
-  children: ReactNode;
-  tag: HeadingVariant;
-  id: string;
+  readonly linkChildren: ReactNode;
+  readonly linkId: string;
+  readonly headingProps: string;
+  readonly headingId: string;
+  readonly headingTag: HeadingVariant;
+  readonly href: string;
 };
 
-export const Heading = memo(({ children, tag: Tag = 'h2', id }: HeadingProps) => (
-  <Tag id={id} className={cn(styles.heading, styles[Tag])}>
-    {children}
-  </Tag>
-));
+export const Heading = memo(
+  ({ headingTag: Tag, linkChildren, linkId, headingProps, headingId, href }: HeadingProps) => (
+    <Tag id={headingId} className={cn(styles.heading, styles[Tag])}>
+      <a id={linkId} href={href} aria-hidden="true" tabIndex={-1}>
+        {linkChildren}
+      </a>
+      {headingProps}
+    </Tag>
+  ),
+);
 
 Heading.displayName = 'Heading';

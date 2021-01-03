@@ -10,9 +10,9 @@ dayjs.extend(localizedFormat);
 dayjs.extend(customParseFormat);
 
 type FooterProps = {
-  publishedAt: string;
-  url: string;
-  title: string;
+  readonly publishedAt: string;
+  readonly url: string;
+  readonly title: string;
 };
 
 export const Footer = memo(({ publishedAt, url, title }: FooterProps) => {

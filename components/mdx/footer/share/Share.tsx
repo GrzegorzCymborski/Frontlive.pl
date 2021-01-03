@@ -5,8 +5,8 @@ import { TwitterShareButton, FacebookShareButton } from 'react-share';
 import styles from './share.module.scss';
 
 type ShareProps = {
-  title: string;
-  url: string;
+ readonly title: string;
+ readonly url: string;
 };
 
 export const Share = memo<ShareProps>(({ title, url }) => (
