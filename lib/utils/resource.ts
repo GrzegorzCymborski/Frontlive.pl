@@ -17,8 +17,8 @@ export const getResourceFrontmatter = <T extends Resource>({
   filename,
   resourcePath,
 }: {
-  filename: string;
-  resourcePath: string;
+  readonly filename: string;
+  readonly resourcePath: string;
 }): T => {
   const slug = filename.replace(MDX_PATTERN, '');
   const fullPath = path.join(resourcePath, filename);
