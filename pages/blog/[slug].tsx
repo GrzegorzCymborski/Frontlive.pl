@@ -44,8 +44,8 @@ const BlogPost = ({
 }: InferGetStaticPropsType<typeof getStaticProps>) => {
   const content = hydrate(transformedMdx, { components: customMdxComponents });
   const { title, excerpt, publishedAt, slug, image } = frontmatter;
-  const url = `http://frontlive.pl/blog/${slug}`;
-  const articleImage = `http://frontlive.pl${image}`;
+  const url = `https://frontlive.pl/blog/${slug}`;
+  const articleImage = `https://frontlive.pl${image}`;
 
   return (
     <>

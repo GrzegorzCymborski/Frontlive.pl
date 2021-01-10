@@ -24,7 +24,7 @@ export const SocialLinks = () => {
   return (
     <div className={styles.wrapper}>
       {socialLinksData.map(({ href, icon, label }) => (
-        <SocialLink href={href} icon={icon} label={label} />
+        <SocialLink key={label} href={href} icon={icon} label={label} />
       ))}
     </div>
   );
