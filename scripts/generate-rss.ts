@@ -83,15 +83,13 @@ const generateRSS = () => {
   });
 
   posts.map(({ slug, title, excerpt, publishedAt, category }: Post) => {
-    const formattedDate = dayjs(publishedAt, 'DD-MM-YYYY').locale('pl').format('LL');
-
     feed.item({
       title: title,
       guid: slug,
       categories: [category],
       description: excerpt,
       url: `https://frontlive.pl/blog/${slug}`,
-      date: formattedDate,
+      date: new Date(publishedAt),
       author: 'Olaf Sulich',
     });
   });
