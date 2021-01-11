@@ -89,7 +89,7 @@ const generateRSS = () => {
       categories: [category],
       description: excerpt,
       url: `https://frontlive.pl/blog/${slug}`,
-      date: new Date(publishedAt),
+      date: new Date(dayjs(publishedAt).format('MM-DD-YYYY')),
       author: 'Olaf Sulich',
     });
   });

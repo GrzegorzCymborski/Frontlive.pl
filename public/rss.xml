@@ -4,14 +4,23 @@
         <description><![CDATA[Frontlive.pl by Olaf Sulich]]></description>
         <link>https://frontlive.pl</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 03 Jan 2021 14:18:39 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 11 Jan 2021 20:56:01 GMT</lastBuildDate>
         <atom:link href="https://frontlive.pl/rss.xml" rel="self" type="application/rss+xml"/>
         <copyright><![CDATA[2020 Olaf Sulich]]></copyright>
         <language><![CDATA[pl]]></language>
         <managingEditor><![CDATA[Olaf Sulich]]></managingEditor>
         <webMaster><![CDATA[Olaf Sulich]]></webMaster>
         <item>
-            <title><![CDATA[Nowoczesny CSS - CSS Variables]]></title>
+            <title><![CDATA[Frontend 2021]]></title>
+            <description><![CDATA[Co przyniesie nowy rok? Jakie technologie będą na topie i na jakie warto zwracać uwagę?]]></description>
+            <link>https://frontlive.pl/blog/frontend-2021</link>
+            <guid isPermaLink="false">frontend-2021</guid>
+            <category><![CDATA[Inne]]></category>
+            <dc:creator><![CDATA[Olaf Sulich]]></dc:creator>
+            <pubDate>Sun, 31 Oct 2021 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[CSS Variables]]></title>
             <description><![CDATA[Chociaż CSS nie jest językiem programowania to posiada swoje zmienne. Czym są i jak się ich używa? Do jakich celów możesz je wykorzystać?]]></description>
             <link>https://frontlive.pl/blog/css-variables</link>
             <guid isPermaLink="false">css-variables</guid>
@@ -53,7 +62,7 @@
             <guid isPermaLink="false">dostepnosc-czytniki-ekranowe</guid>
             <category><![CDATA[Dostępność]]></category>
             <dc:creator><![CDATA[Olaf Sulich]]></dc:creator>
-            <pubDate>Invalid Date</pubDate>
+            <pubDate>Sun, 09 Feb 2020 23:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Dostępność - top 10 najczęściej popełnianych błędów]]></title>
@@ -80,7 +89,7 @@
             <guid isPermaLink="false">dostepnosc-dla-każdego</guid>
             <category><![CDATA[Dostępność]]></category>
             <dc:creator><![CDATA[Olaf Sulich]]></dc:creator>
-            <pubDate>Invalid Date</pubDate>
+            <pubDate>Sun, 08 Nov 2020 23:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Recenzja - TypeScript na poważnie]]></title>
@@ -89,7 +98,7 @@
             <guid isPermaLink="false">recenzja-typescript-na-powaznie</guid>
             <category><![CDATA[Recenzje]]></category>
             <dc:creator><![CDATA[Olaf Sulich]]></dc:creator>
-            <pubDate>Invalid Date</pubDate>
+            <pubDate>Wed, 08 Apr 2020 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[GraphQL + TypeScript - wygeneruj sobie typy!]]></title>
@@ -107,7 +116,7 @@
             <guid isPermaLink="false">graphql-apollo</guid>
             <category><![CDATA[GraphQL]]></category>
             <dc:creator><![CDATA[Olaf Sulich]]></dc:creator>
-            <pubDate>Invalid Date</pubDate>
+            <pubDate>Tue, 07 Jul 2020 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[GraphQL - zapytania, mutacje i schema]]></title>
@@ -143,7 +152,7 @@
             <guid isPermaLink="false">svelte-podstawy</guid>
             <category><![CDATA[Svelte]]></category>
             <dc:creator><![CDATA[Olaf Sulich]]></dc:creator>
-            <pubDate>Invalid Date</pubDate>
+            <pubDate>Thu, 06 Aug 2020 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[CSS Houdini - przyszłość CSSa czy niepotrzebna nowość?]]></title>
@@ -152,7 +161,7 @@
             <guid isPermaLink="false">css-houdini</guid>
             <category><![CDATA[CSS]]></category>
             <dc:creator><![CDATA[Olaf Sulich]]></dc:creator>
-            <pubDate>Invalid Date</pubDate>
+            <pubDate>Fri, 06 Mar 2020 23:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[React - Suspense & Concurrent mode]]></title>
@@ -179,7 +188,7 @@
             <guid isPermaLink="false">webpack-podstawy</guid>
             <category><![CDATA[Webpack]]></category>
             <dc:creator><![CDATA[Olaf Sulich]]></dc:creator>
-            <pubDate>Invalid Date</pubDate>
+            <pubDate>Sat, 05 Dec 2020 23:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Atomic Design - myśl atomami i klockami LEGO!]]></title>
@@ -215,7 +224,7 @@
             <guid isPermaLink="false">typescript-podstawy</guid>
             <category><![CDATA[TypeScript]]></category>
             <dc:creator><![CDATA[Olaf Sulich]]></dc:creator>
-            <pubDate>Invalid Date</pubDate>
+            <pubDate>Tue, 04 Aug 2020 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[JavaScript - ES6 to już przeżytek, nastała era ES2019!]]></title>
@@ -224,7 +233,7 @@
             <guid isPermaLink="false">javascript-es2019</guid>
             <category><![CDATA[JavaScript]]></category>
             <dc:creator><![CDATA[Olaf Sulich]]></dc:creator>
-            <pubDate>Invalid Date</pubDate>
+            <pubDate>Mon, 04 May 2020 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[JavaScript - Nullish coalescing & Optional chaining]]></title>
@@ -233,7 +242,7 @@
             <guid isPermaLink="false">javascript-nullish-coalescing</guid>
             <category><![CDATA[JavaScript]]></category>
             <dc:creator><![CDATA[Olaf Sulich]]></dc:creator>
-            <pubDate>Invalid Date</pubDate>
+            <pubDate>Sat, 04 Jan 2020 23:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[CircleCi + Netlify - Continuous Integration & Deployment]]></title>
@@ -260,7 +269,7 @@
             <guid isPermaLink="false">firebase-deploy</guid>
             <category><![CDATA[Firebase]]></category>
             <dc:creator><![CDATA[Olaf Sulich]]></dc:creator>
-            <pubDate>Invalid Date</pubDate>
+            <pubDate>Sat, 03 Oct 2020 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Firebase - dodawanie danych do Firestore]]></title>
@@ -269,7 +278,7 @@
             <guid isPermaLink="false">firebase-dodawania-danych-do-firestore</guid>
             <category><![CDATA[Firebase]]></category>
             <dc:creator><![CDATA[Olaf Sulich]]></dc:creator>
-            <pubDate>Sat, 28 Mar 2020 23:00:00 GMT</pubDate>
+            <pubDate>Invalid Date</pubDate>
         </item>
         <item>
             <title><![CDATA[Firebase - pobieranie danych z Firestore]]></title>
@@ -278,7 +287,7 @@
             <guid isPermaLink="false">firebase-pobieranie-danych-z-firestore</guid>
             <category><![CDATA[Firebase]]></category>
             <dc:creator><![CDATA[Olaf Sulich]]></dc:creator>
-            <pubDate>Wed, 25 Mar 2020 23:00:00 GMT</pubDate>
+            <pubDate>Invalid Date</pubDate>
         </item>
         <item>
             <title><![CDATA[Firebase - autoryzacja w 10 minut? To mozliwe!]]></title>
@@ -287,7 +296,7 @@
             <guid isPermaLink="false">firebase-autoryzacja</guid>
             <category><![CDATA[Firebase]]></category>
             <dc:creator><![CDATA[Olaf Sulich]]></dc:creator>
-            <pubDate>Tue, 17 Mar 2020 23:00:00 GMT</pubDate>
+            <pubDate>Invalid Date</pubDate>
         </item>
     </channel>
 </rss>

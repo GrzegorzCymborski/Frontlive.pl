@@ -10,6 +10,7 @@ import { Heading } from 'components/shared/components/heading/Heading';
 import { Footer } from 'components/footer/Footer';
 import { getNewestPosts, getPopularPosts } from 'lib/posts';
 import { categories } from '../data/categories';
+import dayjs from 'dayjs';
 
 export const getStaticProps: GetStaticProps = async () => {
   const newestPosts = getNewestPosts();
@@ -40,7 +41,7 @@ export default function Home({
     #     # #       #    #    # ###### #    # ###### ### 
     `);
     console.log('Ta strona została zaprojektowana i wykonana przez Olafa Sulicha 🎨 🖥️');
-  });
+  }, []);
 
   return (
     <>
